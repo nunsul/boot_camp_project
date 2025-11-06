@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+.card { flex:1 1 calc(33.333% - 12px); } /* 3열 */
+.title { font-size:22px; }
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="brand">My Blog</div>
+<nav>
+<ul class="nav-list">
+<li><a href="#">홈</a></li>
+<li><a href="#">카테고리</a></li>
+<li><a href="#">태그</a></li>
+<li><a href="#">정보</a></li>
+<li>정보2</li>
+</ul>
+</nav>
+</div>
+</header>
+
+
+<div class="container layout">
+<main>
+<section class="posts" aria-label="최신 게시글">
+<article class="card">
+<img class="thumb" src="https://picsum.photos/800/450?1" alt="포스트 1 미리보기">
+<div class="content">
+<h3 class="title">포스트 제목 1</h3>
+<p class="meta">2025-11-04 · 카테고리</p>
+<p>간단한 소개 문장입니다.</p>
+</div>
+</article>
+<article class="card">
+<img class="thumb" src="https://picsum.photos/800/450?2" alt="포스트 2 미리보기">
+<div class="content">
+<h3 class="title">포스트 제목 2</h3>
+<p class="meta">2025-11-04 · 카테고리</p>
+<p>간단한 소개 문장입니다.</p>
+</div>
+</article>
+<article class="card">
+<img class="thumb" src="https://picsum.photos/800/450?3" alt="포스트 3 미리보기">
+<div class="content">
+<h3 class="title">포스트 제목 3</h3>
+<p class="meta">2025-11-04 · 카테고리</p>
+<p>간단한 소개 문장입니다.</p>
+</div>
+</article>
+</section>
+</main>
+
+
+<aside aria-label="사이드 정보">
+<h4>사이드바</h4>
+<ul>
+<li>인기 글</li>
+<li>최근 댓글</li>
+<li>카테고리</li>
+</ul>
+</aside>
+</div>
+
+
+<footer class="container" style="padding-top:0;">
+<small>© 2025 My Blog. All rights reserved.</small>
+</footer>
+</body>
+</html>
